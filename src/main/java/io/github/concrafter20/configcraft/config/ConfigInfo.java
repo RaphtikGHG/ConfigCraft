@@ -13,7 +13,7 @@ public class ConfigInfo {
     ConfigType configType;
     String fileName;
 
-    public ConfigInfo(Integer configType, String fileName) {
+    public ConfigInfo(ConfigType configType, String fileName) {
         this.configType = configType;
         this.fileName = fileName;
     }
